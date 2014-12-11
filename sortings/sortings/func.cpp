@@ -23,7 +23,7 @@ void copyArray(int arr[],int n,int arr2[])
     for (int i=0;i<n;i++)
         arr2[i]=arr[i];
 }
-void quickSort(int arr[], int left, int right,int arr2[]) {
+void quickSort(int arr[], int left, int right,double arr2[]) {
     int i = left, j = right;
     int tmp;
     int pivot = arr[(left + right) / 2];
@@ -49,7 +49,7 @@ void quickSort(int arr[], int left, int right,int arr2[]) {
         quickSort(arr, i, right,arr2);
     
 }
-void bubbleSort(int arr[],int arr2[],int n)
+void bubbleSort(int arr[],double arr2[],int n)
 {
     for (int i=0;i<n;i++)
         for (int j=i+1;j<n;j++)
@@ -64,7 +64,7 @@ void bubbleSort(int arr[],int arr2[],int n)
             }
         }
 }
-void wtfSort(int arr[],int n,int arr1[],int arr2[])
+void wtfSort(int arr[],int n,int arr1[],double arr2[])
 {
     int count=0;
     int i1=0;
@@ -103,7 +103,6 @@ void wtfSort(int arr[],int n,int arr1[],int arr2[])
         arr[i] = -1;
         
     }
-    //std::cout<<"first"<<std::endl;
     // метод погружения
     for (int i=0;i<n;i++)
     {
@@ -138,7 +137,5 @@ void wtfSort(int arr[],int n,int arr1[],int arr2[])
 
         }
     }
-    //showArray(arr1, n);
-    
 }
 
