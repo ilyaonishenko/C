@@ -12,20 +12,24 @@
 	<dict>
 		<key>1C5F2FE0CFC1D33C107BC3935C5631675FD74AA2</key>
 		<string>github.com:wopqw/Cpp.git</string>
+		<key>44D0EE4796E007CB4F20550B5A60C2C22E1FD575</key>
+		<string>github.com:wopqw/C.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>two_list/two_list.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1C5F2FE0CFC1D33C107BC3935C5631675FD74AA2</key>
+		<string>../../../../C:Cc</string>
+		<key>44D0EE4796E007CB4F20550B5A60C2C22E1FD575</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:wopqw/Cpp.git</string>
+	<string>github.com:wopqw/C.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1C5F2FE0CFC1D33C107BC3935C5631675FD74AA2</string>
+	<string>44D0EE4796E007CB4F20550B5A60C2C22E1FD575</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>1C5F2FE0CFC1D33C107BC3935C5631675FD74AA2</string>
 			<key>IDESourceControlWCCName</key>
 			<string>C:Cc</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>44D0EE4796E007CB4F20550B5A60C2C22E1FD575</string>
+			<key>IDESourceControlWCCName</key>
+			<string>newC</string>
 		</dict>
 	</array>
 </dict>
