@@ -80,8 +80,8 @@ void writeInFile(Drugstore* Obj,const int amount)
         fout<<"Есть ли сейчас в наличии"<<" "<<Obj[i].isIt<<endl;
         fout<<"Возможен ли предзаказ"<<" "<<Obj[i].preOrder<<endl;
         fout<<"Сколько человек предзаказали"<<" "<<Obj[i].preCustomers<<endl;
-        fout.close();
     }
+    fout.close();
 
 }
 void readFromFile(Drugstore* Obj,const int amount)

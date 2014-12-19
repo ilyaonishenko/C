@@ -29,10 +29,6 @@ int main(int argc, const char * argv[]) {
     int t=0;
     Drugstore* myDrugstore = 0;
     int number = 0;
-    //myDrugstore = adding(myDrugstore, number);
-    //setDrugstore(myDrugstore, number);
-    //number++;
-    //showDrugstore(myDrugstore, number);
     cout<<"Привет. В Вашей аптеке пусто. Что с ней делать - решать только Вам!"<<endl;
     while (t!=5) {
         cout<<"Меню:\n1)Считать из файла\n2)Ввести вручную\n3)Вывести на экран\n4)Вывести в файл\n5) Выход"<<endl;
@@ -44,13 +40,17 @@ int main(int argc, const char * argv[]) {
                 cout<<"Сколько структур считать из файла?"<<endl;
                 cin>>number;
                 for (int i=0;i<number;i++)
+                {
                     myDrugstore = adding(myDrugstore, i);
-                readFromFile(myDrugstore, number);
+                    readFromFile(myDrugstore, number);
+                }
+                cout<<"Готово!"<<endl;
                 break;
             case 2:
                 cout<<"Вводим вручную"<<endl;
                 myDrugstore = adding(myDrugstore, number);
                 setDrugstore(myDrugstore, number);
+                number++;
                 break;
             case 3:
                 cout<<"Что получилось?"<<endl;
@@ -59,6 +59,7 @@ int main(int argc, const char * argv[]) {
             case 4:
                 cout<<"Вывожу в файл"<<endl;
                 writeInFile(myDrugstore, number);
+                cout<<"Готово!"<<endl;
                 break;
             case 5:
                 cout<<"good bye!"<<endl;
